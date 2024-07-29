@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif; 
+    border: none;
+}
+
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 5rem;
+}
+
+.background {
+    background-image: url(./PPT\ 5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+ul li a:hover {
+    text-transform: capitalize;
+    color: blue;
+    border-bottom: solid 1px ;
+}
+
+.c_icon {
+   margin-right: 5rem; 
+}
+
+.incone ion-icon {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+hr {
+    border-bottom: solid 0.1px;
+    color:white;
+    margin-top: 15px;
+}
+
+.c_title {
+    margin-left: 5rem;
+    margin-top: 10rem;
+} 
+
+.c_title h1 {
+    color: yellow;
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+
+.c_title p {
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.c_title button {
+    margin-top: 2rem;
+    background-color:#fff;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+
+
+}
+
+.c_title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.section-1 h1 {
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+
+}
+
+.section-1 span {
+    color: yellow
+}
+
+.section-1 {
+    padding: 5rem;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.sobre-nos img {
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+}
+
+.sobrenos_title {
+    margin-left: 1.3rem;
+
+}
+
+.sobrenos_title h2 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+.sobrenos_title p {
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    width: 45rem;
+}
+
+.sobrenos_title button {
+    margin-top: 2rem;
+    background-color:#fff;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    cursor: pointer;
+
+}
+
+
+.sobrenos_title button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+
+.sobrenos_title button span {
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+    padding: 10px;
+}  
+
+.section-2 h1 {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.container-card-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img {
+    border: solid 1px rgba(255,255 ,255 , .3);
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card-img img {
+    width: 120px;
+    height: auto;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+p {
+    color: #ccc ;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.card-img button {
+    margin-top: 1rem;
+    background-color: #d3ad7d ;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-img:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+    background-color: #0d0d0f;
+}
+
+#container-card-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.section-1 {
+    background-color: #19197080;
+}
+
+.section-2 {
+    background-color: #19197080;
+}
+
+
+
+
+
